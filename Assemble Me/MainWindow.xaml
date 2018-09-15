@@ -5,8 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Assemble_Me"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Assemble Me - The 8-Bit Assembler" Height="450" Width="800">
     <Grid>
-        
+        <ToolBarTray HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Width="793" Background="WhiteSmoke">
+            <ToolBar x:Name="toolBar" Height="25" VerticalAlignment="Top" Margin="0,0,-117.333,0" Background="White" HorizontalAlignment="Left" Width="120">
+                <Button>Open</Button>
+                <Button>Save</Button>
+                <Button>New</Button>
+            </ToolBar>
+        </ToolBarTray>
+
     </Grid>
 </Window>
